@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 int t;cin>>t;
 while(t--){
-    pcout<<"hello";
+    cout<<"hello";
 }
     return 0;
 }
