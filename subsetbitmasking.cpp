@@ -14,8 +14,7 @@ void subsetvector(vector<int> &s, int k)
                 temp.push_back(s[j]);
             }
         }
-        if ((int)temp.size() == k)
-            subsetsvectors.push_back(temp);
+        subsetsvectors.push_back(temp);
     }
 }
 
